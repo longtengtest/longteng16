@@ -1,0 +1,50 @@
+
+# 添加加油卡 ----------------------------
+FREE_CARD_NUMBERS:
+  - 1376525
+  - abc
+  - Abc#123
+  - ''
+
+EXIST_CARD_NUMBER: hzc_card1
+
+
+# 绑定加油卡 -----------------------------
+ # 无卡用户
+FREE_USER:
+  - hzc_user0
+  - hzc0
+
+# 绑定一张卡的用户
+BIND_USER:
+  - hzc_user1
+  - hzc1
+
+# 已绑定两张卡的用户
+USER_WITH_TWO_CARDS:
+  - hzc_user2
+  - hzc2
+
+
+FREE_CARD: hzc_card0  # 未绑定用户的卡1
+FREE_CARD2: hzc_card0_2  # 未绑定用户的卡2
+BIND_CARD: hzc_card1  # 已绑定用户的卡
+BLACK_CARD: hzc_card_black  # 黑名单状态的卡
+OFF_CARD: hzc_card_off # 已注销的卡
+UNIT_CARD: hzc_card_unit # 单位卡
+CARD_NOT_EXIST: hzc_card_nx  # 不存在的卡
+
+# 查询加油卡 -------------------------------
+BLANK_CARD: hzc_card1
+USED_CARD: hzc_card3
+USER_ID_NOT_EXIST: 10000000
+
+INVALID_DATA_SOURCE_ID: bHRz23
+
+
+# 消费加油卡 -------------------------------
+AMOUNT: 50
+FLOAT_AMOUNT: 50.5
+METHOD_ID_NOT_EXIST: 05A
+VERY_LARGE_AMOUNT: 5000000
+

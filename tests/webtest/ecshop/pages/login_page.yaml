@@ -1,0 +1,3 @@
+username_ipt: [name, username]
+password_ipt: [name, password]
+login_btn: [class name, button2]

@@ -1,0 +1,22 @@
+初始化一个本地仓库
+git init
+
+配置开发者的用户名和邮箱
+git config --global user.name 'kevin'
+git config --global user.email 'kevin@123.com'
+
+
+把当前目录及子目录下所有文件添加到索引
+git add .
+
+提交版本
+git commit -m "版本变更记录"
+
+关联远端仓库为origin
+git remote add origin https://......
+
+推送到origin的master分支
+git push -u origin master
+
+
+
